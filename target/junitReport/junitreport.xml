@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.552863">
+<testcase classname="Agent_Reward" name="Sign Up user" time="21.552863">
+<system-out><![CDATA[Given I am at the page which is "HomePage"..................................passed
+When I click on Login Link located on header................................passed
+Then I should navigate to offcanvas which is "Login_OffCanvas"..............passed
+And I input Email as "sarajanev728@mailinator.com" and Password as "password" and Click on Login button.passed
+Then I should navigate to page which is "HomePage"..........................passed
+When I click on following menu located on header after successful login.....passed
+Then I should navigate to page which is "MyAccountPage".....................passed
+When I click on following Menu located on left navigation...................passed
+Then I should navigate to page which is "AgentReward".......................passed
+Given I am at the page which is "AgentReward"...............................passed
+When I click on Sign Up Now button..........................................passed
+Then I should navigate to offcanvas which is "SignUp_OffCanvas".............passed
+]]></system-out>
+</testcase>
+</testsuite>
